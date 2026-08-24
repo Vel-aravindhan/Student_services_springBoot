@@ -1,15 +1,15 @@
 package com.example.student_service;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class StudentServiceUnitTest {
+@SpringBootTest
+class StudentServiceApplicationTests {
 
     @Test
-    void simpleTest() {
-        int result = 10 + 20;
-
-        assertEquals(30, result);
+    void contextLoads() {
+        assertTrue(true);
     }
 }
